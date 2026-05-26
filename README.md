@@ -22,7 +22,7 @@ While most ROS 2 applications utilize high-level client libraries (C++/Python), 
 * **Mechanical Empathy & Safety Logic:** Applied physical constraints (e.g., $0.3\pi$ rad/s angular velocity limits) to prevent LiDAR "motion blur" and ensure reliable obstacle detection.
 * **Double Redundant Shutdown:** Engineered safety fallbacks that publish a final _geometry_msgs/msg/Twist_ with zero-velocity vectors to clear the command buffer and prevent ghost drifting if previous logic had not caught the break in logic.
 
-#### Link to Presentation Material: https://drive.google.com/file/d/1At5ZZYHPsSMsBmi-iuNjZXaGwxg54GBg/view?usp=sharing
+#### Link to Presentation Material: [https://drive.google.com/file/d/1At5ZZYHPsSMsBmi-iuNjZXaGwxg54GBg/view?usp=sharing](https://www.youtube.com/live/MhbMvyM5W74?si=jVJa68HdnzgqKa08)
 ## Features
 
 ### 1. Naive Obstacle Avoider (obstacle_avoider.bash)
